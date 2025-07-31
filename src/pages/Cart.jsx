@@ -77,7 +77,7 @@ const Cart = () => {
                 }
             }
         }catch(error){
-            toast.error(error.message)
+            toast.error("please Login")
         }
     }
 
